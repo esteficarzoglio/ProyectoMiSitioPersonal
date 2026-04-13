@@ -12,7 +12,7 @@ body{
     background-color: rgb(169, 228, 228);
 }
 .estiloespecial{
-    color: rgb(1, 193, 193);
+    color: white;
     font-size: 30px;
 }
 header{
@@ -37,6 +37,57 @@ footer{
 }
 #infografia{
     margin:20px;
+    border: 10px solid;
+    width: 350px;
+    height: auto;
+}
+.boton{
+width: 134px;
+height: 37px;
+border-radius: 30px;
+background: rgb(2, 159, 159);
+margin: 20px;
+list-style: none;
+text-align: center;
+}
+.boton a{
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#fotoprincipal{
+    width: 50%;
+    height: auto;
+}
+.contenedor{
+    background-color: rgb(77, 152, 152);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor2{
+    background-color:rgb(77, 152, 152) ;
+    width: 70%;
+    flex-wrap: wrap;
+}
+#tenis{
+    margin: 20px;
+    border: 10px solid;
+    width: 350px;
+    height: auto;
+}
+#gimnasio{
+    margin: 20px;
+    border: 10px solid;
+    width: 350px;
+    height: auto;
+}
+#novelas{
+    margin: 20px;
     border: 10px solid;
     width: 350px;
     height: auto;
